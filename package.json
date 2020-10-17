@@ -1,0 +1,39 @@
+{
+  "name": "user_management_backend_code_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lint": "eslint --fix ./**/*.js",
+    "migrate": "npx sequelize-cli db:migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmrt90/user_management_backend_code_challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmrt90/user_management_backend_code_challenge/issues"
+  },
+  "homepage": "https://github.com/rmrt90/user_management_backend_code_challenge#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "prettier": "^2.1.2",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
